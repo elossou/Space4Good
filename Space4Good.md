@@ -42,7 +42,7 @@ The necessary packages are:
     pyproj and requests
     
 The script is based on the [OSMnx 0.16.2](https://github.com/gboeing/osmnx/blob/main/CHANGELOG.md) , a depracated version of [OSMnx](https://osmnx.readthedocs.io/en/stable/).
-This script relied on the OSMnx 0.16.2 version due to the unavailablity of OpenStreetMap data fo the study. Transforming a geojson file to a graph in OSMnx requires attribute information such as osmid, starting node and end note, all of which were not provided. We performed a workaround with the road network provided and tested it with OSMnx 1.1.1 but it did not work out.The gr  
+This script relied on the OSMnx 0.16.2 version due to the unavailablity of OpenStreetMap data fo the study. Transforming a geojson file to a graph in OSMnx requires attribute information such as osmid, starting node and end note, all of which were not provided. We performed a workaround with the road network provided and tested it with OSMnx 1.1.1 but it did not work out.It was only possible with the OSMnx package.The steps involved in generating a shortest path within the study area from any two random points are as follow:
 
 The process is as follow:
 1. The script first create an output folder if it does not exist.
