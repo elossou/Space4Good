@@ -54,6 +54,7 @@ The script is based on the [OSMnx 0.16.2](https://github.com/gboeing/osmnx/blob/
 
 	a. Transforms the starting node and end node of the edges into u and v attributes.
           These attributes are essential for the creation of a graph in OSMnx.
+	  
 	b. Creates three (3) additional attributes for the nodes namely Longitude (X), Latitude (Y) 
           and street_count and automatically assign values to the columns.
 	  
