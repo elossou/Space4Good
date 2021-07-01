@@ -43,12 +43,12 @@ The necessary packages are:
     
 The script is based on the [OSMnx 0.16.2](https://github.com/gboeing/osmnx/blob/main/CHANGELOG.md) , a depracated version of [OSMnx](https://osmnx.readthedocs.io/en/stable/). This script relied on the OSMnx 0.16.2 version due to the unavailability of OpenStreetMap data fo the study. Transforming a geojson file to a graph in OSMnx requires attribute information such as osmid, starting node and end note, all of which were not provided. We performed a workaround with the road network provided and tested it with OSMnx 1.1.1 but it did not work out.It was only possible with the OSMnx package.The steps involved in generating a shortest path within the study area from any two random points are as follow:
 
-1. The script first create an output folder if it does not exist.
+1. The script first creates an output folder if it does not exist.
 2. The script checks whether or not there is an existing road network in a geojson format.
-3. If yes, it transform the the geojson file into an undirected graph using the momepy package.
-4. If no, it downloads the road network and then transforms it into an undirected graph
-5. This is followed by the conversion from undirected graph to directed graph
-6. the script then retain only the largest connected graph in the network.
+3. If yes, it transforms the the geojson file into an undirected graph using the momepy package.
+4. If no, it downloads the road network and then transforms it into an undirected graph.
+5. This is followed by the conversion from undirected graph to directed graph.
+6. the script then retains only the largest connected graph in the network.
 7. The next step is the extraction of **nodes** and **edges** from the graph.
 8. The script then:
 	1. Transforms the starting node and end node of the edges into u and v attributes.
