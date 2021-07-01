@@ -48,7 +48,7 @@ The script is based on the [OSMnx 0.16.2](https://github.com/gboeing/osmnx/blob/
 3. If yes, it transforms the the geojson file into an undirected graph using the momepy package.
 4. If no, it downloads the road network and then transforms it into an undirected graph.
 5. This is followed by the conversion from undirected graph to directed graph.
-6. the script then retains only the largest connected graph in the network.
+6. The script then retains only the largest connected graph in the network.
 7. The next step is the extraction of **nodes** and **edges** from the graph.
 8. The script then:
 	1. Transforms the starting node and end node of the edges into u and v attributes.
