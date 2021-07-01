@@ -69,7 +69,7 @@ To check the currecnt directory, the user can run this code: **os.getcwd()**
 
 
 ## Acknowledgement
-Our thanks goes to Nandika Tsendbazar, for her advisory role. Special thanks to Corné Vreugdenhil for providing expert advice with the use Networkx and OSMnx packages Python expert,  and Dainius Masiliunas who was of great help when we seemed irretrievably stuck (as it goes with scripting).
+Our thanks go to Nandika Tsendbazar, for her advisory role. Special thanks to Corné Vreugdenhil for providing expert advice with the use Networkx and OSMnx packages Python expert,  and Dainius Masiliunas who was of great help when we seemed irretrievably stuck (as it goes with scripting).
 
 ## Reference
 
